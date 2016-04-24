@@ -1,0 +1,6 @@
+gnuplot 4.2 patchlevel 6 
+Writing filtered delta file AB-AIB.spades.filter
+Reading delta file AB-AIB.spades.filter
+Writing plot files AB-AIB.spades.fplot, AB-AIB.spades.rplot
+Writing gnuplot script AB-AIB.spades.gp
+Rendering plot AB-AIB.spades.png
