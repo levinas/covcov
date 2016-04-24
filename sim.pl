@@ -135,9 +135,10 @@ sub sim_reads {
 }
 
 sub output_prefix {
-    my ($ref) = @_;
-    $ref =~ s/\.(fa|fasta)$//;
-    $ref;
+    my ($file) = @_;
+    $file =~ s/^.*\///;
+    $file =~ s/\.(fa|fasta)$//;
+    $file;
 }
 
 sub run { system(@_) == 0 or confess("FAILED: ". join(" ", @_)); }
