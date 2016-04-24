@@ -10,6 +10,7 @@ Simulate reads from the `AB-AIB` FASTA file and assemble them with velvet and SP
 
 Simulate error free reads at 30X coverage and plot all-to-all matches in the 'reference vs assembly' dot plot.
 
+
 ```
 Usage: sim.pl [options] ref.fa
 
