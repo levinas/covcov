@@ -2,11 +2,11 @@ Experiments to understand how assemblers handle repeat regions.
 
 Examples:
 
-1. `sim.pl data/AB-AIB.fa`
+* `sim.pl data/AB-AIB.fa`
 
 Simulate reads from the `AB-AIB` FASTA file and assemble them with velvet and SPAdes.
 
-2. `sim.pl -e 0 -c 30 -a data/AB-AIB.fa`
+* `sim.pl -e 0 -c 30 -a data/ABC-AIBIC.fa`
 
 Simulate error free reads at 30X coverage and plot all-to-all matches in the 'reference vs assembly' dot plot.
 
