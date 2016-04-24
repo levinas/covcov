@@ -6,9 +6,9 @@ Examples:
 
 Simulate reads from the `AB-AIB` FASTA file and assemble them with velvet and SPAdes.
 
-2. `sim.pl -e 0 -c 300 -a data/AB-AIB.fa`
+2. `sim.pl -e 0 -c 30 -a data/AB-AIB.fa`
 
-Simulate error free reads at 300X coverage and plot all-to-all matches in the 'reference vs assembly' dot plot.
+Simulate error free reads at 30X coverage and plot all-to-all matches in the 'reference vs assembly' dot plot.
 
 ```
 Usage: sim.pl [options] ref.fa
